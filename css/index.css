@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* AFTER CSS RESET */
+
 * {
     box-sizing: border-box;
 }
@@ -55,6 +57,52 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+.header-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 100px;
+}
+
+.lambda-logo {
+    height: 45px;
+    width: 25%;
+    margin-bottom: 18px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 42%;
+}
+
+.nav-links {
+    font-size: 1rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+.nav-links a {
+    padding-top: 10px;
+    width: 100px;
+    color: black;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.jumbo-image-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* AFTER HEADER AND IMAGE */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -66,7 +114,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.content-container {
     width: 800px;
     margin: 0 auto;
 }
@@ -88,6 +136,116 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.box-1 {
+ background-color: teal;
+ width: 12.5%;
+ height: 100px;
+ margin: 20px 2.5%;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.box-2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+
+.box-3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.box-4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+.box-5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.box-6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen;
+}
+
+.box-7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+
+.box-8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+
+.box-9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+
+.box-10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
 }
 
 .middle-content h2 {
